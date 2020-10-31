@@ -1,0 +1,19 @@
+{
+  "name": "sentral-v2",
+  "version": "1.0.0",
+  "description": "A simple Sentral wrapper client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-html-parser": "^1.4.3",
+    "request": "^2.88.2",
+    "util": "^0.12.3"
+  }
+}
