@@ -18,12 +18,12 @@ async function getAuthToken(username, password) {
 	};
 	
 	const token = await (await requestPromise(options)).headers['set-cookie'][0].split(';')[0].split('=')[1];
-	const dashboardPage = await getDashboardPage(token);
+	const dashboardPage = await getPage(token, 'dashboard');
 
 	if (dashboardPage.includes('<title>My Dashboard</title>')) {
 		return token;
 	} else {
-		return 'Invalid Username or Password!';
+		return 'ERROR: Invalid Username or Password!';
 	}
 }
 

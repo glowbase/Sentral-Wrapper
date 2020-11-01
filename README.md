@@ -1,2 +1,2 @@
 # Sentral Wrapper
- An API wrapper for Sentral
+Sentral Wrapper is a simple and easy to use API that lets you access data from a Sentral Student Account. Sentral Wrapper creates a authentication token and uses this to authenticate with Sentral. Pages are then scrapped from useful information and can be accessed using an API.
